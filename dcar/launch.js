@@ -10,7 +10,7 @@ if (['build', 'debug', 'run'].indexOf(action) === -1) {
   process.exit(1);
 }
 
-// Validation platform
+// Validation platform  
 if ([undefined, 'android', 'ios'].indexOf(platform) === -1) {
   winston.error('Invalid platform');
   process.exit(1);
