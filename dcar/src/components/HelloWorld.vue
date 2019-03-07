@@ -30,6 +30,6 @@
   }
 
   Label {
-    color: red;
+    color: #ff0000;
   }
 </style>
