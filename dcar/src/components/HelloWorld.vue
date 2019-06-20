@@ -1,8 +1,8 @@
 <template>
   <Page class="page">
-    <ActionBar class="action-bar" title="Hello world">
-    </ActionBar>
-
+    <ActionBar class="action-bar" title="Hello world"> 
+    </ActionBar> 
+ 
     <StackLayout class="hello-world">
       <Label class="body" textWrap=true text="This is a hello world component, tap the button if you dare"/>
 
@@ -15,21 +15,21 @@
 </template>
 
 <script>
-  export default {
-    data () {
-      return {
-        surprise: false,
-      };
-    },
-  };
-</script>
-
-<style scoped>
-  .hello-world {
-    margin: 20;
-  }
-
-  Label {
-    color: #ff0000;
-  }
-</style>
+  export default { 
+    data () { 
+      return { 
+        surprise: false, 
+      }; 
+    }, 
+  }; 
+</script> 
+ 
+<style scoped> 
+  .hello-world { 
+    margin: 20; 
+  } 
+ 
+  Label { 
+    color: #ff0000; 
+  } 
+</style> 
