@@ -9,10 +9,10 @@
       <Button class="btn btn-primary" @tap="surprise = !surprise" text="Tap me!"/>
       <Image v-if="surprise" src="~/images/NativeScript-Vue.png"/>
 
-    </StackLayout>
+    </StackLayout> 
 
-  </Page>
-</template>
+  </Page> 
+</template> 
 
 <script>
   export default { 
@@ -30,6 +30,6 @@
   } 
  
   Label { 
-    color: #ff0000; 
+    color: #ff0000;  
   } 
 </style> 
