@@ -47,7 +47,7 @@ else {
   tnsProcess.stdout.pipe(process.stdout);
   tnsProcess.on('exit', function (code) {
     if(code != 0) process.exit(code)
-  });
+  }); 
 }
 
 //todo
